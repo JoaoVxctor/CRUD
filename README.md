@@ -5,7 +5,7 @@
 - Exclusão
 - Atualização;
 
-Utilziando jQuery, Bootstrap, Javascript para a parte do Frontend, PHP e PDO para a parte do Backend e MySQL na parte de Banco de Dados.
+Utilizando jQuery, Bootstrap, Javascript para a parte do Frontend, PHP e PDO para a parte do Backend e MySQL na parte de Banco de Dados.
 
 
 ## Telas do Sistema
