@@ -1,5 +1,5 @@
  # CRUD Simplmes
-**Crud Simples, feito com PHP, PDO, Bootstrap, JQuery, Javascript e CSS.**,Aplicando as quatro funções basicas de formulários:
+**Crud Simples, feito com PHP, PDO, Bootstrap, JQuery, Javascript e CSS**, Aplicando as quatro funções basicas de formulários:
 - Cadastro
 - Leitura
 - Exclusão
