@@ -154,7 +154,8 @@
             
       </div>
      
-      
+      <?php include 'php/read.php';
+                     foreach( $linha as $rs) :?>
       <div class="container border rounded p-4 my-4 " id="consulta">
           <h2 class="bold text-secondary mb-3">Consulta</h1>
           
@@ -162,14 +163,13 @@
      
                <div class="row"  class="border border-primary">
                
-               <?php include 'php/read.php';
-                     
-                     foreach( $linha as $rs) :?>
+              
            
                  <div class='col-6'>
                      <ul class='list-group mb-2'>
                           <li class='list-group-item'>
                             <div class='row p-2'>
+                           
                             <form  method='POST'  >
                               
                               <div class='col-12 p-1 '>Nome Fantasia : <?php echo $rs['nomeFantasia']; ?> </div>
@@ -190,13 +190,13 @@
                           </li>
                         </ul>
                       </div>
-                    <?php endforeach;?>
+                   
               </div>
 
             </div>
         </div>    
     
-    
+        <?php endforeach;?>
     
     
     

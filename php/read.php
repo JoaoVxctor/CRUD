@@ -9,8 +9,10 @@ require  'install.php';
 
             if($stmt->execute()){
                 
-            $linha = $stmt->fetchAll(PDO::FETCH_ASSOC);
-        
+                $linha = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+              
+
     } else {
         echo "Erro: Não foi possível recuperar os dados do banco de dados";
     }
